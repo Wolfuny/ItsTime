@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <form>
+  
+  <form action="generateur.php" method="POST">
     <h1>Générateur de mot de passe</h1>
 
     <label for="longueur">Longueur de mots :</label>
@@ -21,10 +21,9 @@
       <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
-      <option value="4">4</option>
     </select>
 
-    <button type="submit">Générer</button>
+    <button type="submit" value="generer"></button>
   </form>
 
 </body>
